@@ -1,0 +1,36 @@
+.contact {
+  margin-top: 10px;
+  display: flex;
+  min-height: 100vh;
+  background-size: cover;
+  justify-content: center;
+}
+.contact-content {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 20px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 35vh;
+  width: 25vw;
+  background-color: beige;
+  background-size: cover;
+  border-radius: 8px;
+}
+.image {
+  width: 50px;
+  height: 30px;
+}
+.item-content {
+  margin: 0px;
+  text-align: center;
+}

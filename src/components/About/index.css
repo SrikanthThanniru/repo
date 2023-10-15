@@ -1,0 +1,44 @@
+.about {
+  background-color: #f8f8f8; /* Background color for the About section */
+  padding: 2rem;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  width: 100;
+  min-height: 100vh;
+  background-image: url("https://th.bing.com/th/id/R.8c2a94f2083a806b7b104236d4ced252?rik=lr7dWI8DEXlJoA&riu=http%3a%2f%2fwww.tonymac.ca%2fwp-content%2fuploads%2f2017%2f12%2fContent-Background.jpg&ehk=asxKwm10qQWGApHTgpiwTNLSFvOaFtO9kakDMpjKJgE%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.about h1 {
+  font-size: 24px;
+  color: #333; /* Text color for the heading */
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 1rem 0;
+  color: #555; /* Text color for the content */
+}
+
+/* Customize the styling of links within the About section */
+.about a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.about a:hover {
+  color: #0056b3; /* Link color on hover */
+}

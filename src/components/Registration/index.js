@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 
+import "./index.css";
+
 function Registration() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -29,23 +31,31 @@ function Registration() {
   };
 
   return (
-    <div>
-      <h2>Registration</h2>
-      <input
-        type="text"
-        name="username"
-        placeholder="Username"
-        value={username}
-        onChange={handleInputChange}
-      />
-      <input
-        type="password"
-        name="password"
-        placeholder="Password"
-        value={password}
-        onChange={handleInputChange}
-      />
-      <button onClick={handleRegistration}>Register</button>
+    <div className="app-container">
+      <div className="container">
+        <h2 className="heading">Registration</h2>
+        <div className="form">
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter Username"
+            value={username}
+            className="input-element"
+            onChange={handleInputChange}
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder=" Enter Password"
+            value={password}
+            className="input-element"
+            onChange={handleInputChange}
+          />
+          <button className="button" onClick={handleRegistration}>
+            Register
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

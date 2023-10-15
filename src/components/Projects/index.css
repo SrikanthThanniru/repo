@@ -1,0 +1,48 @@
+.projects {
+  background-color: #f9f9f9; /* Background color for the Projects section */
+  padding: 2rem;
+  margin-top: 12px;
+}
+
+.projects h1 {
+  font-size: 24px;
+  color: #333; /* Text color for the heading */
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: 48%; /* Adjust to your preferred layout */
+  padding: 1rem;
+  border: 2px solid rgb(0, 255, 55);
+  border-radius: 8px;
+  background-color: #fff; /* Background color for each project box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  margin-bottom: 1rem;
+}
+
+.project h3 {
+  font-size: 20px;
+  color: #333; /* Text color for the project title */
+}
+
+.project p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555; /* Text color for the project description */
+}
+
+.project a {
+  display: block;
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project a:hover {
+  color: #0056b3; /* Link color on hover */
+}
